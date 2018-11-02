@@ -1,11 +1,11 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven:3-alpine' 
-            args '-u root:sudo -v /root/.m2:/root/.m2' 
-        }
-    }
+    agent any
     stages {
+        stage ("InstallMvn") {
+            steps {
+                sh 'sudo docker inspect -f . maven:3-alpine'
+            }
+        }
         stage('Build') { 
             steps {
                 sh 'mvn -B -DskipTests clean package' 
