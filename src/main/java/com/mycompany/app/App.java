@@ -8,7 +8,7 @@ package com.mycompany.app;
 //another change
 public class App
 {
-//int i;
+int i;
     private final String message = "Hello World!";
 
     public App() {}
