@@ -2,7 +2,10 @@ package com.mycompany.app;
 
 /**
  * Hello world!
+ 
  */
+int i;
+//another change
 public class App
 {
 
