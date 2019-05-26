@@ -4,11 +4,11 @@ package com.mycompany.app;
  * Hello world!
  
  */
-int i;
+
 //another change
 public class App
 {
-
+	
     private final String message = "Hello World!";
 
     public App() {}
