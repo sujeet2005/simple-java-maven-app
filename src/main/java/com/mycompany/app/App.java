@@ -8,8 +8,9 @@ package com.mycompany.app;
 //another change
 public class App
 {
-int i=10;
-int j=20;
+
+
+
     private final String message = "Hello World!";
 
     public App() {}
