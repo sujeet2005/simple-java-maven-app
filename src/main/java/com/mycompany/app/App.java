@@ -9,6 +9,7 @@ package com.mycompany.app;
 public class App
 {
 int i=10;
+int b=20;
 
 
     private final String message = "Hello World!";
